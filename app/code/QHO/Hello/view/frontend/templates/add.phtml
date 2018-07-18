@@ -1,0 +1,14 @@
+<h1>This is add controller</h1>
+<p>Content of add controller </p>
+<p>
+    <?php
+        echo $data;
+        echo " ".$block->getBaseUrl();
+        echo "</br>";
+        $data = $block->getDemo();
+        foreach($data as $day){
+            echo $day."</br>";
+        }
+        echo $this->getData("abc");
+    ?>
+</p>

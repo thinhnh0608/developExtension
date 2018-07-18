@@ -1,0 +1,1 @@
+alert("js/sample.js is called");
